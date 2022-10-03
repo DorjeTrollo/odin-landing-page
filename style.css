@@ -113,19 +113,25 @@ button.hc-button {
     padding: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .quote {
     font-size: 36px;
-    font-weight: 100;
-    font-style: italic;
+    
     color: #1f2937;
 }
 
-.quote.credit {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.text {
+    font-style: italic;
+    font-weight: 100;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.credit {
+    font-weight: 700;
+    text-align: end;
+    padding-top: 0px;
+    margin-top: 0px;
 }
