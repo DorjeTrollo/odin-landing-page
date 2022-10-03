@@ -58,7 +58,7 @@ ul {
 
 .hc-text {
     font-size: 18px;
-    color: rgb(126, 125, 125);
+    color: #e5e7eba8;
 }
 
 #hc-photo {
@@ -75,4 +75,57 @@ button.hc-button {
     border: 1px solid #3882f6;
     color: #fff;
     margin-right: auto;
+}
+
+.info-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.info-card {
+    width: 200px;
+}
+
+.info-text {
+    color: #1f2937;
+    font-size: 16px;
+}
+
+.info-photo {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote.credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
