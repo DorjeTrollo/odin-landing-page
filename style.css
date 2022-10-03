@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+body {
     font-family: Roboto, sans-serif;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -22,6 +24,7 @@ ul {
 .header {
     background-color: #1f2937;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
@@ -89,9 +92,11 @@ button.hc-button {
 
 .info-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
     padding: 0 100px 0 100px;
+    margin-bottom: 50px;
 }
 
 .info-card {
@@ -118,7 +123,6 @@ button.hc-button {
 
 .quote {
     font-size: 36px;
-    
     color: #1f2937;
 }
 
@@ -134,4 +138,39 @@ button.hc-button {
     text-align: end;
     padding-top: 0px;
     margin-top: 0px;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #3882f6;
+    width: 700px;
+    border-radius: 6px;
+    padding: 24px 32px;
+    margin: 75px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.donate {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.donate-txt {
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+}
+
+#modal-button {
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    color: #fff;
 }
